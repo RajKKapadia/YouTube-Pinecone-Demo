@@ -69,3 +69,4 @@ def clear_indexes(pinecone_api_key: str, pinecone_environment: str, pinecone_ind
         return 'Indexes cleared.', None
     except Exception as e:
         return e, None
+    
